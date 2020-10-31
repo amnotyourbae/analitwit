@@ -2,3 +2,4 @@
 
 # analitwit
 tweet analyzer using python.
+twitter: @amnotyourbae
