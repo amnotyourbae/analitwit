@@ -1,7 +1,7 @@
 import tweepy
 import pandas as pd
 
-from toktok import consumer_key, consumer_secret, access_token, access_token_secret
+from token import consumer_key, consumer_secret, access_token, access_token_secret
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -19,7 +19,7 @@ def ngulik(screen_name):
             print('Stalking gagal. Sepertinya kamu di block, atau mungkin digembok')
             return None
         else:
-            print ('try again someday')
+            Raise TweepError(e)
     # desk
     description = user.description
     print('bionya ' + screen_name + ': ' + str(description))
