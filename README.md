@@ -1,2 +1,3 @@
 # analitwit
-tweet analyzer using python
+tweet analyzer using python.
+
